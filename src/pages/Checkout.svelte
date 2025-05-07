@@ -47,7 +47,7 @@
         <li class="bg-white rounded shadow p-4 flex justify-between items-center">
           <span>{item.title} — <span class="font-semibold">${item.price}</span></span>
           <button
-            class="text-red-500 hover:underline"
+            class="text-red-500 hover:underline cursor-pointer"
             on:click={() => removeItem(item.id)}>
             Remove
           </button>
