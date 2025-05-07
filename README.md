@@ -1,7 +1,12 @@
-# How to run
+# Prerequisite
 
 ```
 node v20
+```
+
+# How to run
+
+```
 npm install
 npm run dev
 ```
